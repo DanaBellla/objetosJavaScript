@@ -28,7 +28,16 @@
                 }
                 };
                 pessoa.saudacao(); //chama o método saudacao do objeto pessoa
-    </script>
+        const livro = {
+                titulo: "1984",
+                autor: "George Orwell",
+                paginas: 328,
+                ano: 1949,
+                categoria: "Ficção distópica",
+                descricao: function() {
+                    console.log("O livro é: " + this.titulo);}
+                };
+        livro.descricao(); //chama o método descricao do objeto livro    </script>
 </body>
 
 </html>
